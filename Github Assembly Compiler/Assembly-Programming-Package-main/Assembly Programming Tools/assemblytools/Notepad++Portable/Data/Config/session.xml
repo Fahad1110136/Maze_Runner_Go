@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="0">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1052" startPos="1305" endPos="1305" selMode="0" offset="0" wrapCount="1" lang="Assembly" encoding="-1" userReadOnly="no" filename="D:\UNIVERSITY\Projects\COAL Project\Github Assembly Compiler\Assembly-Programming-Package-main\Assembly Programming Tools\COAl.asm" backupFilePath="" originalFileLastModifTimestamp="1863717778" originalFileLastModifTimestampHigh="31231696" tabColourId="-1" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="512" mapWrapIndentMode="-1" mapIsWrap="no" />
+        </mainView>
+        <subView activeIndex="0" />
+    </Session>
+</NotepadPlus>

@@ -1,0 +1,45 @@
+2024-11-10 17:04:59  WM_QUERYENDSESSION (lParam: 0 - ordinary system shutdown/restart) =====================================
+2024-11-10 17:05:00  WM_ENDSESSION (wParam: TRUE, lParam: 0 - ordinary system shutdown/restart)
+2024-11-10 17:05:00  C:\Users\Lenovo\Downloads\githubcompiler\Assembly-Programming-Package-main\Assembly Programming Tools\assemblytools\Notepad++Portable\Data\Config\config.xml is opened.
+2024-11-10 17:05:00  C:\Users\Lenovo\Downloads\githubcompiler\Assembly-Programming-Package-main\Assembly Programming Tools\assemblytools\Notepad++Portable\Data\Config\config.xml  9931/9931 bytes are written.
+2024-11-10 17:05:00  C:\Users\Lenovo\Downloads\githubcompiler\Assembly-Programming-Package-main\Assembly Programming Tools\assemblytools\Notepad++Portable\Data\Config\config.xml is closed.
+2024-11-10 17:05:00  C:\Users\Lenovo\Downloads\githubcompiler\Assembly-Programming-Package-main\Assembly Programming Tools\assemblytools\Notepad++Portable\App\Notepad++64\session.xml is opened.
+2024-11-10 17:05:00  C:\Users\Lenovo\Downloads\githubcompiler\Assembly-Programming-Package-main\Assembly Programming Tools\assemblytools\Notepad++Portable\App\Notepad++64\session.xml  1495/1495 bytes are written.
+2024-11-10 17:05:00  C:\Users\Lenovo\Downloads\githubcompiler\Assembly-Programming-Package-main\Assembly Programming Tools\assemblytools\Notepad++Portable\App\Notepad++64\session.xml is closed.
+2024-11-10 17:05:00  WM_DESTROY (isEndSessionStarted == true)
+2024-11-10 18:05:54  WM_QUERYENDSESSION (lParam: 1073741824 - ENDSESSION_CRITICAL) =====================================
+2024-11-10 18:05:54  WM_ENDSESSION (wParam: TRUE, lParam: 1073741824 - ENDSESSION_CRITICAL)
+2024-11-10 18:05:55  C:\Users\Lenovo\Downloads\githubcompiler\Assembly-Programming-Package-main\Assembly Programming Tools\assemblytools\Notepad++Portable\Data\Config\config.xml is opened.
+2024-11-10 18:05:55  C:\Users\Lenovo\Downloads\githubcompiler\Assembly-Programming-Package-main\Assembly Programming Tools\assemblytools\Notepad++Portable\Data\Config\config.xml  9931/9931 bytes are written.
+2024-11-10 18:05:55  C:\Users\Lenovo\Downloads\githubcompiler\Assembly-Programming-Package-main\Assembly Programming Tools\assemblytools\Notepad++Portable\Data\Config\config.xml is closed.
+2024-11-10 18:05:55  C:\Users\Lenovo\Downloads\githubcompiler\Assembly-Programming-Package-main\Assembly Programming Tools\assemblytools\Notepad++Portable\App\Notepad++64\session.xml is opened.
+2024-11-10 18:05:55  C:\Users\Lenovo\Downloads\githubcompiler\Assembly-Programming-Package-main\Assembly Programming Tools\assemblytools\Notepad++Portable\App\Notepad++64\session.xml  1668/1668 bytes are written.
+2024-11-10 18:05:55  C:\Users\Lenovo\Downloads\githubcompiler\Assembly-Programming-Package-main\Assembly Programming Tools\assemblytools\Notepad++Portable\App\Notepad++64\session.xml is closed.
+2024-11-10 18:05:55  WM_DESTROY (isEndSessionStarted == true)
+2024-11-13 21:32:53  WM_QUERYENDSESSION (lParam: 0 - ordinary system shutdown/restart) =====================================
+2024-11-13 21:32:53  WM_ENDSESSION (wParam: TRUE, lParam: 0 - ordinary system shutdown/restart)
+2024-11-13 21:32:53  C:\Users\Lenovo\Downloads\githubcompiler\Assembly-Programming-Package-main\Assembly Programming Tools\assemblytools\Notepad++Portable\Data\Config\config.xml is opened.
+2024-11-13 21:32:53  C:\Users\Lenovo\Downloads\githubcompiler\Assembly-Programming-Package-main\Assembly Programming Tools\assemblytools\Notepad++Portable\Data\Config\config.xml  10014/10014 bytes are written.
+2024-11-13 21:32:53  C:\Users\Lenovo\Downloads\githubcompiler\Assembly-Programming-Package-main\Assembly Programming Tools\assemblytools\Notepad++Portable\Data\Config\config.xml is closed.
+2024-11-13 21:32:53  C:\Users\Lenovo\Downloads\githubcompiler\Assembly-Programming-Package-main\Assembly Programming Tools\assemblytools\Notepad++Portable\App\Notepad++64\session.xml is opened.
+2024-11-13 21:32:53  C:\Users\Lenovo\Downloads\githubcompiler\Assembly-Programming-Package-main\Assembly Programming Tools\assemblytools\Notepad++Portable\App\Notepad++64\session.xml  1680/1680 bytes are written.
+2024-11-13 21:32:54  C:\Users\Lenovo\Downloads\githubcompiler\Assembly-Programming-Package-main\Assembly Programming Tools\assemblytools\Notepad++Portable\App\Notepad++64\session.xml is closed.
+2024-11-13 21:32:54  WM_DESTROY (isEndSessionStarted == true)
+2024-11-16 20:25:06  WM_QUERYENDSESSION (lParam: 0 - ordinary system shutdown/restart) =====================================
+2024-11-16 20:25:06  WM_ENDSESSION (wParam: TRUE, lParam: 0 - ordinary system shutdown/restart)
+2024-11-16 20:25:06  C:\Users\Lenovo\Downloads\githubcompiler\Assembly-Programming-Package-main\Assembly Programming Tools\assemblytools\Notepad++Portable\Data\Config\config.xml is opened.
+2024-11-16 20:25:06  C:\Users\Lenovo\Downloads\githubcompiler\Assembly-Programming-Package-main\Assembly Programming Tools\assemblytools\Notepad++Portable\Data\Config\config.xml  9927/9927 bytes are written.
+2024-11-16 20:25:06  C:\Users\Lenovo\Downloads\githubcompiler\Assembly-Programming-Package-main\Assembly Programming Tools\assemblytools\Notepad++Portable\Data\Config\config.xml is closed.
+2024-11-16 20:25:06  C:\Users\Lenovo\Downloads\githubcompiler\Assembly-Programming-Package-main\Assembly Programming Tools\assemblytools\Notepad++Portable\App\Notepad++64\session.xml is opened.
+2024-11-16 20:25:07  C:\Users\Lenovo\Downloads\githubcompiler\Assembly-Programming-Package-main\Assembly Programming Tools\assemblytools\Notepad++Portable\App\Notepad++64\session.xml  1503/1503 bytes are written.
+2024-11-16 20:25:07  C:\Users\Lenovo\Downloads\githubcompiler\Assembly-Programming-Package-main\Assembly Programming Tools\assemblytools\Notepad++Portable\App\Notepad++64\session.xml is closed.
+2024-11-16 20:25:07  WM_DESTROY (isEndSessionStarted == true)
+2024-11-17 21:08:00  WM_QUERYENDSESSION (lParam: 0 - ordinary system shutdown/restart) =====================================
+2024-11-17 21:08:00  WM_ENDSESSION (wParam: TRUE, lParam: 0 - ordinary system shutdown/restart)
+2024-11-17 21:08:00  C:\Users\Lenovo\Downloads\githubcompiler\Assembly-Programming-Package-main\Assembly Programming Tools\assemblytools\Notepad++Portable\Data\Config\config.xml is opened.
+2024-11-17 21:08:00  C:\Users\Lenovo\Downloads\githubcompiler\Assembly-Programming-Package-main\Assembly Programming Tools\assemblytools\Notepad++Portable\Data\Config\config.xml  9928/9928 bytes are written.
+2024-11-17 21:08:00  C:\Users\Lenovo\Downloads\githubcompiler\Assembly-Programming-Package-main\Assembly Programming Tools\assemblytools\Notepad++Portable\Data\Config\config.xml is closed.
+2024-11-17 21:08:00  C:\Users\Lenovo\Downloads\githubcompiler\Assembly-Programming-Package-main\Assembly Programming Tools\assemblytools\Notepad++Portable\App\Notepad++64\session.xml is opened.
+2024-11-17 21:08:01  C:\Users\Lenovo\Downloads\githubcompiler\Assembly-Programming-Package-main\Assembly Programming Tools\assemblytools\Notepad++Portable\App\Notepad++64\session.xml  2314/2314 bytes are written.
+2024-11-17 21:08:01  C:\Users\Lenovo\Downloads\githubcompiler\Assembly-Programming-Package-main\Assembly Programming Tools\assemblytools\Notepad++Portable\App\Notepad++64\session.xml is closed.
+2024-11-17 21:08:01  WM_DESTROY (isEndSessionStarted == true)
