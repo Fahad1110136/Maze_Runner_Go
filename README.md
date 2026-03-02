@@ -1,109 +1,197 @@
 # Maze Runner Go
-## Maze Runner Game — x86 Assembly (8086)
+🧩 Maze Runner Game — x86 Assembly (8086)
 
 Maze Runner is a fully interactive maze-based game developed entirely in x86 Assembly Language for the 8086 architecture. The project demonstrates low-level game development concepts by directly interfacing with hardware using BIOS interrupts, manual memory management, and interrupt service routines—without relying on any high-level libraries or game engines.
-This project was built to deeply understand computer architecture, real-time input handling, memory-mapped I/O, and interrupt-driven programming.
 
-## Game Overview
+This project was built to deeply understand:
 
-1. Navigate through complex mazes using keyboard arrow keys
-2. Avoid enemies and manage score strategically
-3. Collect points and power-ups
-4. Activate SupraMan Mode to temporarily walk through walls for few seconds
-5. Beat the maze before the time runs out
-6. The entire game is rendered in text mode using direct access to video memory (0xB800).
+Computer architecture
 
-## Technical Highlights
+Real-time input handling
 
-1. Low-Level Rendering (Video Memory)
+Memory-mapped I/O
+
+Interrupt-driven programming
+
+🚀 Implemented Features
+🔐 User Authentication
+
+Separate registration/login for teachers and students
+
+Session-based authentication
+
+Role-based access control
+
+📖 Interactive Mushaf Viewer
+
+Full Quran display with Arabic text
+
+Personal annotations: Add colored notes to any verse
+
+Verse annotations: Track insights and learning notes
+
+Annotation management (create, read, update, delete)
+
+Dedicated "My Annotations" page
+
+💬 Real-Time Chat
+
+Live communication between users
+
+Instant message updates
+
+Session-based user identification
+
+🎮 Game Overview
+
+Navigate through complex mazes using keyboard arrow keys
+
+Avoid enemies and manage score strategically
+
+Collect points and power-ups
+
+Activate SupraMan Mode to temporarily walk through walls
+
+Beat the maze before time runs out
+
+Entire game rendered in text mode using video memory (0xB800)
+
+⚙️ Technical Highlights
+🖥 Low-Level Rendering (Video Memory)
 
 Direct writing to text-mode video memory (0xB800)
-Each screen element is written as a character + attribute word
+
+Each screen element written as character + attribute word
+
 Custom borders, maze walls, paths, UI panels, score, and timer
+
 No graphics libraries used
 
-2. Multi-Level Maze System
+🧱 Multi-Level Maze System
 
 Five different 20×20 maze levels
+
 Each level stored as a structured word array
-Maze elements encoded symbolically:
-Hash → Walls
-Space → Open path
+
+Maze symbols:
+
+# → Walls
+
+→ Open path
+
 S → Start
+
 E → Exit
+
 ♥ → Points
+
 ☠ → Enemy
+
 ⚡ → SupraMan key
+
 A custom maze renderer converts array data into visual output row by row.
 
-## Input Handling (Keyboard Interrupt)
+⌨️ Input Handling (Keyboard Interrupt)
 
-Implemented a custom Keyboard Interrupt Service Routine (INT 09h)
+Implemented a custom Keyboard Interrupt Service Routine (INT 09h).
+
 Captures raw scan codes for:
-1. Up
-2. Down
-3. Left
-4. Right
-Enables smooth, real-time movement
-All movement passes through collision validation logic
 
-## Collision Detection Logic
+⬆ Up
+
+⬇ Down
+
+⬅ Left
+
+➡ Right
+
+Features:
+
+Smooth real-time movement
+
+Collision validation before every move
+
+🧠 Collision Detection Logic
 
 Each movement is validated before execution:
-1. Walls block movement
-2. Enemies reduce score
-3. Hearts increase score
-4. Power-ups activate special modes
-5. Exit triggers game completion
-Collision logic ensures correct behavior even during power-up states.
 
-## SupraMan Mode (Special Feature)
+Walls block movement
+
+Enemies reduce score
+
+Hearts increase score
+
+Power-ups activate special modes
+
+Exit triggers game completion
+
+⚡ SupraMan Mode (Special Feature)
 
 SupraMan Mode is a time-limited power-up designed at the assembly level.
 
-1. Features:
+Features
 
 Activated by collecting a special key
-Allows the player to walk through walls
+
+Allows player to walk through walls
+
 Overrides normal collision rules
+
 Visually indicated in the UI
 
-2. Implementation:
+Implementation
 
 Controlled via:
+
 supermanmode flag
+
 supermantimer counter
-Automatically deactivates after timer expiration
-Timing is synchronized using the system timer interrupt.
 
-## Timer System (INT 08h)
+Automatically deactivates after timer expiration.
 
-Uses hardware timer ticks (20 ticks = 1 second)
+Timing synchronized using system timer interrupt.
+
+⏱ Timer System (INT 08h)
+
+Uses hardware timer ticks (20 ticks = 1 second).
+
 Tracks:
-1. Game duration
-2. SupraMan countdown
-3. Triggers Game Over when time expires
-4. Stops incrementing time after winning
-5. All timing logic is interrupt-driven and precise.
 
-## Scoring System
+Game duration
 
-1. +200 points for collecting hearts
-2. −100 points when hitting enemies
-3. Score is updated dynamically on screen
-4. Manual integer-to-ASCII conversion for display
-5. No library functions are used for number formatting.
+SupraMan countdown
 
-## Game States
+Game Over when time expires
 
-1. Win Condition
+Stops incrementing time after winning
+
+All timing logic is interrupt-driven and precise.
+
+🏆 Scoring System
+
++200 points for collecting hearts ❤️
+
+−100 points when hitting enemies ☠
+
+Score updates dynamically on screen
+
+Manual integer-to-ASCII conversion for display
+
+No library functions used for formatting
+
+🎯 Game States
+🥇 Win Condition
 
 Reach the exit (E)
-Displays a congratulatory message
+
+Displays congratulatory message
+
 Stops timer and finalizes score
 
-2. Game Over
+💀 Game Over
 
 Triggered when time limit is exceeded
-Displays an “Out of Time” message
-Ends program execution cleanly
+
+Displays "Out of Time" message
+
+Program terminates cleanly
